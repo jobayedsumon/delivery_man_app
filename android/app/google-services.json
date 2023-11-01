@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1066475948869",
+    "project_id": "pizza-corner-e2f6f",
+    "storage_bucket": "pizza-corner-e2f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066475948869:android:657513da7a77dc5ea10c2c",
+        "android_client_info": {
+          "package_name": "com.pizzacorner.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066475948869-cg8gpilu0fdbcgqi13bg0n8098dpr6lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlIzRVBuh-iRxUfR5hHamhmPtMXH_5xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066475948869-cg8gpilu0fdbcgqi13bg0n8098dpr6lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066475948869:android:c8413cd1a52266f8a10c2c",
+        "android_client_info": {
+          "package_name": "com.pizzacorner.deliveryman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066475948869-cg8gpilu0fdbcgqi13bg0n8098dpr6lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlIzRVBuh-iRxUfR5hHamhmPtMXH_5xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066475948869-cg8gpilu0fdbcgqi13bg0n8098dpr6lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
