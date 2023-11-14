@@ -217,7 +217,7 @@ class ProductDetails {
         _addOns.add(new AddOns.fromJson(v));
       });
     }
-    _tax = json['tax'].toDouble();
+    _tax = json['tax'] != null ? json['tax'].toDouble() : 0.0;
     _availableTimeStarts = json['available_time_starts'];
     _availableTimeEnds = json['available_time_ends'];
     _status = json['status'];

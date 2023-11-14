@@ -17,7 +17,10 @@ class TimerProvider with ChangeNotifier {
     }
     DateTime endTime = _orderTime.add(Duration(minutes: int.parse(order.preparationTime)));
 
-    _duration = endTime.difference(DateTime.now());
+    DateTime now = DateTime.now().toUtc().add(Duration(hours: 11));
+    now = DateTime(now.year, now.month, now.day, now.hour, now.minute, now.second);
+
+    _duration = endTime.difference(now);
     _timer?.cancel();
     _timer = null;
     _timer = Timer.periodic(Duration(seconds: 1), (timer) {
