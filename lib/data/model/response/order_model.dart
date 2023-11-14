@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 class OrderModel {
   int id;
   int userId;
@@ -65,7 +67,9 @@ class OrderModel {
     deliveryCharge = json['delivery_charge'].toDouble();
     orderNote = json['order_note'];
     deliveryAddress = json['delivery_address'] != null
-        ? new DeliveryAddress.fromJson(json['delivery_address'])
+        ? new DeliveryAddress.fromJson(
+          json['delivery_address'] is String ? jsonDecode(json['delivery_address']) : json['delivery_address']
+        )
         : null;
     customer = json['customer'] != null
         ? new Customer.fromJson(json['customer'])

@@ -291,7 +291,7 @@ class _OrderDetailsScreenState extends State<OrderDetailsScreen> {
                                             overflow: TextOverflow.ellipsis,
                                           ),
                                         ),
-                                        Text(getTranslated('amount', context), style: rubikRegular.copyWith(color: Theme.of(context).highlightColor)),
+                                        // Text(getTranslated('amount', context), style: rubikRegular.copyWith(color: Theme.of(context).highlightColor)),
                                       ],
                                     ),
                                     SizedBox(height: Dimensions.PADDING_SIZE_EXTRA_SMALL),
@@ -328,7 +328,7 @@ class _OrderDetailsScreenState extends State<OrderDetailsScreen> {
                                           ),
                                         ]) :SizedBox(),
 
-                                        ProductTypeView(productType: order.orderDetails[index].productDetails.productType),
+                                        // ProductTypeView(productType: order.orderDetails[index].productDetails.productType),
                                       ],
                                     ) ,
                                   ]),

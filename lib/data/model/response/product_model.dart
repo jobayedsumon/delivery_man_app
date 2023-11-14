@@ -233,7 +233,7 @@ class Variation {
   Variation.fromJson(Map<String, dynamic> json) {
     _type = json['type'];
     if(json['price'] != null) {
-      _price = json['price'].toDouble();
+      _price = double.parse(json['price'].toString());
     }
   }
 
